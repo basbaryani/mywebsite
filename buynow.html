@@ -1,0 +1,104 @@
+<html>
+<head>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background-color: lightblue;
+		}
+		#nav_ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: indigo;
+}
+
+
+#nav_ul a:hover {
+  background-color:yellow;
+  color: black;
+}
+
+#nav_ul>li {
+  float: left;
+}
+
+#nav_ul>li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nav_al>ul {
+  list-style-type: italic;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:deepskyblue;
+}
+
+#nav_al_>ul>li a {
+  display: block;
+  color: lightskyblue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.form{
+	padding: 50px;
+	width: 40%;
+	background-color: lightcyan;
+	text-align: justify;
+	position: relative;
+	left: 30%;
+	top: -80px;
+}
+	</style>
+</head>
+<body>
+	<nav class="horizontal">
+	<ul id="nav_ul">
+		<li><a href="home.html">HOME</a></li>
+		<li><a href="bmw.html">BMW</a></li>
+		<li><a href="audi.html">AUDI</a></li>
+		<li><a href="mc.html">MERCEDES BENZ</a></li>
+		<li><a href="vw.html">VOLKSWARGEN</a></li>
+		</ul>
+</nav>
+<nav class="vertical">
+	<ul id="nav_al">
+		<li><a href="home.html">HOME</a></li>
+		<li><a href="bmw.html">BMW</a></li>
+		<li><a href="audi.html">AUDI</a></li>
+		<li><a href="mc.html">MERCEDES BENZ</a></li>
+		<li><a href="vw.html">VOLKSWARGEN</a></li>
+		</nav>
+<form class="form">
+    <p><b>Please fill in this form </b></p>
+    <label for="fname"><b>First name:</b></label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname"><b>Last name:</b></label>
+  <input type="text" id="lname" name="lname"><br><br>
+   <label for="email"><b>Email:</b></label>
+    <input type="text" name="email" id="email" required><br><br>
+<label for="country"><b>Choose a country:<b></label>
+<select id="province" name="country">
+  <option value="rwanda">rwanda</option>
+  <option value="uganda">uganda</option>
+  <option value="kenya">kenya</option>
+  <option value="burundi">burundi</option>
+  <option value="tanzania">tanzania</option>
+  <option value="nigeria">nigeria</option>
+  <option value="gabon">gabon</option>
+</select><br><br>
+<label for="your gender"><b>your gender:</b></label>
+<input type="radio" id="female" name="your gender" value="female">
+  <label for="gender">female</label>
+  <input type="radio" id="male" name="your gender" value="male">
+  <label for="male">male</label><br><br>
+  <button type="submit" class="registerbtn">send</button><br><br>   
+ </form>
+ </body>
+ </center>
+ </html>
